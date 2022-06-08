@@ -1,6 +1,6 @@
 # ip-puller-website-to-discord-webhook
 
-all you need to do is put the script on your website and change where it says DISCORD_HEBHOOK_HERE to your discord webhook
+all you need to do is put the script on your website and change where it says DISCORD_WEBHOOK_HERE to your discord webhook
 
 this is just for proof of concept i am not responsible for anything done with this 
 
